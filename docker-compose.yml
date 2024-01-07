@@ -1,7 +1,8 @@
 
 services:
   petclinic:
-    image: wishnu21/petclinic-app:0.0.2
+    image: wishnu21/petclinic-app:0.0.4
+    platform: linux/amd64
     build:
       context: .
       dockerfile: Dockerfile.aws
